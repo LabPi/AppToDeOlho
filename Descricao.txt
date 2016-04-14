@@ -1,0 +1,23 @@
+#SOBRE O APLICATIVO
+Apesar da corrupção estar presente em praticamente todas as áreas de atuação do governo, a que gera mais prejuízo e mal estar para a população é a infraestrutura. Esta drena bilhões dos cofres públicos anualmente. Nossa proposta está diretamente ligada a esta área.
+Estamos construindo um aplicativo que vai dar ao cidadão mais que o poder de fiscalizar obras do governo, mas viabilizar as condições para isso.
+O TôDeOlho tem por função principal encurtar os laços entre população e órgãos fiscalizadores para viabilizar uma administração mais transparente e eficiente. Com o aplicativo será possível fiscalizar obras públicas, visualizando orçamento previsto, tempo gasto e empresa contratada. Se o usuário constatar alguma irregularidade poderá fazer uma denúncia e tirar uma fotografia geo localizada da obra. Além do que poderá acompanhar suas denuncias e as obras marcadas como favoritas.
+
+
+#PLATAFORMA ANDROID
+O sistema foi desenvolvido sobre a versão 4 do Android, onde trás as seguintes telas:
+Splash Screen: é a primeira tela exibida no sistema, sua função é trazer a logo do sistema.
+Tela Inicial: possui dois botões, buscar e favoritos. Ao clicar sobre o botão buscar, o usuário poderá buscar por um determinado endereço e verificar se em determinado local existem denúncias cadastradas, o resultado dessa busca é visual, ou seja, o mapa será reposicionado para o endereço que foi buscado e se possuir alguma denúncia, ele poderá visualizar os marcadores. Já o botão favoritos possibilitará o usuário visualizar as denúncias que ele marcou para seguir, podendo acompanhá-las mais de perto, mas para isso ser possível ele deverá possuir um login e senha.
+Tela de Login: nessa tela o usuário deverá digitar o login, que nesse caso é o email cadastrado na plataforma, e a senha, configurada na plataforma anteriormente. Possuem dois campos de texto, sendo que no primeiro o usuário deverá entrar com um email válido. Já no campo de senha, o usuário deverá digitar uma senha de no mínimo cinco caracteres. Possui também um checkbox que deverá ser marcado aceitando os termos para utilização do sistema e um botão para fazer login com o facebook.
+Tela de Mapa: na tela onde é exibido o mapa com os marcadores que referenciam as denúncias já feitas no sistema, é possível clicar sobre um marcador e obter maiores informações sobre a mesma. Na parte superior direita da tela possui um menu em que o usuário poderá acessar os favoritos, realizar buscas e acessar o perfil. Também é possível através dessa janela cadastrar uma nova denúncia acessando um botão que fica na parte direita inferior da tela.
+Tela de Favoritos: nessa tela, o usuário terá disponibilidade de acessar as denúncias que ele marcou anteriormente para acompanhar. É possível verificar nessa tela uma breve descrição de cada denúncia, com informações referente imagem realizada no local da obra, a quantidade de pessoas que consideraram satisfatória, ou pessoas que acreditam que aquela denúncia não condiz com a realidade. 
+
+#MULTIPLATAFORMA
+Pensando em desenvolver um aplicativo que alcance o maior número possível de pessoas, estamos desenvolvendo o TôDeOlho também  em uma plataforma híbrida utilizando CORDOVA e o framework IONIC, para que dessa forma usuários da plataforma IOS e WINDOWS PHONE não fique sem acessar o aplicativo. Todas as telas implementadas no ANDROID também foram feitas na multiplataforma seguindo inclusive o mesmo layout.
+
+
+#SISTEMA WEB
+O ToDeOlho também contará com painel administrativo, porém, pelas necessidades específicas do mesmo, este foi desenvolvido para web. Apesar disso, pode ser acessado tranquilamente por dispositivos móveis, visto que seu layout se adapta a qualquer tamanho de tela.
+Através do painel administrativo o agente fiscalizador do governo poderá moderar as denúncias, acompanhar o cadastro de novas obras e novos usuários, e até mesmo cadastrar novas obras para que as pessoas possam fiscalizar. 
+Será possivel obter gráficos e relatórios diversos, como por exemplo relação de cidades com maior número de denuncias, maior número de pessoas 'aborrecidas', ou também um gráfico da evolução da obra com relação ao investimento.
+Este painel foi criado utilizando as técnicas mais atuais de design web, priorizando a experiência do usuário, através de um design sóbrio e fluído.
