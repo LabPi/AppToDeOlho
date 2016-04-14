@@ -1,0 +1,90 @@
+<ion-view view-title="TôDeOlho">
+    <ion-content style="padding: 0" overflow-scroll="true">
+
+        <div class="video-container">
+            <style>.embed-container {
+                position: relative;
+                padding-bottom: 56.25%;
+                height: 0;
+                overflow: hidden;
+                max-width: 100%;
+            }
+
+            .embed-container iframe, .embed-container object, .embed-container embed {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }</style>
+            <div class='embed-container'>
+                <img class="full-image" src="img/video1.jpg">
+            </div>
+        </div>
+        <a class="item item-text-wrap" align="justify">
+            <h2><b>Ponte Sobre o Rio Tocantins</b></h2>
+
+            <p>Ponte que fará a ligação entre os estados do Maranhão e Tocantins, facilitando o trânsito entre a
+                população e dessa forma diminuindo o tempo de viagem.</p>
+            <p>
+                {{playlist.textogrande}}.
+                <button style="float: right" class="button button-small button-positive">
+                    Acompanhar
+                </button>
+            </p>
+        </a>
+        <div class="item tabs tabs-secondary tabs-icon-left">
+            <a class="tab-item" href="#">
+                <i class="icon ion-thumbsup"></i>
+                983
+            </a>
+            <a class="tab-item" href="#">
+                <i class="icon ion-thumbsdown"></i>
+                9
+            </a>
+            <a class="tab-item" href="#">
+
+            </a>
+        </div>
+        <a class="item item-text-wrap" align="justify">
+            <p><i class="icon ion-clock"></i>  350 dias</p>
+            <p>
+                <progress max="100" value="40">40%</progress>
+            </p>
+            <p align="center">Tempo Previsto 700 dias</p>
+        </a>
+        <a class="item item-text-wrap" align="justify">
+            <p><i class="icon ion-cash"></i>  R$ 5.3000.000,00 gastos</p>
+            <p>
+                <progress max="100" value="50">40%</progress>
+            </p>
+            <p align="center">Orçamento Previsto R$ 10.600.000,00</p>
+        </a>
+        <a class="item item-text-wrap" align="justify">
+            <p><i class="icon ion-briefcase"></i>  EMPRESA: JSL Empreendimentos LTDA</p>
+        </a>
+        <a class="item item-text-wrap" align="justify">
+            <button class="button button-block button-positive">
+                VER DENÚNICAS
+            </button>
+            <button class="button button-block button-positive" onclick="location.href='#/app/mapa'">
+                DENUNCIAR
+            </button>
+        </a>
+
+        <!--    <ul style="margin-right: 10px; margin-left: 10px; margin-top: 10px; margin-bottom: 20px">-->
+
+
+        </div>
+        <!-- </ul>-->
+    </ion-content>
+</ion-view>
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.5&appId=1598364277105038";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>

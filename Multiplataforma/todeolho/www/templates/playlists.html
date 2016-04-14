@@ -1,0 +1,52 @@
+<ion-view view-title="TôDeOlho">
+  <ion-content style="background-color: #dddddd;" overflow-scroll="true">
+    <ion-list>
+      <div class="list card item-text-wrap" align="justify" ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}">
+          <!--<img src="{{playlist.image}}">
+          <h2 class="item-text-wrap">{{playlist.title}}</h2>
+          <p class="item-text-wrap">{{playlist.subtitle}}</p>-->
+
+              <div class="item item-avatar">
+                  <img src="img/pessoa.jpg">
+                  <h2 class="item-text-wrap"><b>{{playlist.title}}</b></h2>
+                  <p class="item-text-wrap"><i class="icon ion-ios-location"></i>  {{playlist.subtitle}}</p>
+              </div>
+
+          <a href="#/app/playlists/{{playlist.id}}">
+              <div class="item item-body">
+                  <img class="full-image" src="{{playlist.image}}">
+                  </a>
+<!--                  <div class="video-container">
+                      <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/BZZ6KYa_WIw' frameborder='0' allowfullscreen></iframe></div>
+                  </div>-->
+                  <p>
+                     {{playlist.textogrande}}.
+                      <button style="float: right" class="button button-small button-positive">
+                          Acompanhar
+                      </button>
+                  </p>
+<!--                  <p>
+                      <a href="#" class="subdued">86 Curtidas</a>
+                      <a href="#" class="subdued">5 Comentários</a>
+                  </p>-->
+              </div>
+
+              <div class="item tabs tabs-secondary tabs-icon-left">
+                  <a class="tab-item" href="#">
+                      <i class="icon ion-thumbsup"></i>
+                        983
+                  </a>
+                  <a class="tab-item" href="#">
+                      <i class="icon ion-thumbsdown"></i>
+                        9
+                  </a>
+                  <a class="tab-item" href="#">
+
+                  </a>
+
+              </div>
+          </a>
+      </div>
+    </ion-list>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TôDeOlho</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Login</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="error_invalid_email">Email inválido</string>
+    <string name="error_invalid_password">Senha muito curta</string>
+    <string name="error_incorrect_password">Senha incorretat</string>
+    <string name="error_field_required">Campo necessário</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Opções</string>
+    <string name="title_activity_splash">TôDeOlho</string>
+    <string name="title_activity_teste">TesteActivity</string>
+</resources>
